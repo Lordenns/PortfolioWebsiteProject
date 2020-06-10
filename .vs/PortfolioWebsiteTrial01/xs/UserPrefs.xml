@@ -2,13 +2,15 @@
   <MonoDevelop.Ide.ItemProperties.PortfolioWebsiteTrial01 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="PortfolioWebsiteTrial01/EmptyHtmlFile.html">
     <Files>
-      <File FileName="PortfolioWebsiteTrial01/EmptyHtmlFile.html" Line="12" Column="1" />
+      <File FileName="PortfolioWebsiteTrial01/EmptyHtmlFile.html" Line="9" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PortfolioWebsiteTrial01" expanded="True">
-            <Node name="PortfolioWebsiteTrial01" expanded="True" selected="True" />
+            <Node name="PortfolioWebsiteTrial01" expanded="True">
+              <Node name="EmptyHtmlFile.html" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
