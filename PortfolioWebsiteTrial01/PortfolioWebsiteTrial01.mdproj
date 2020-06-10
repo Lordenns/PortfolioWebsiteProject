@@ -10,8 +10,8 @@
     <OutputPath>.\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="EmptyHtmlFile.html" />
-    <None Include="EmptyCSSFile.css" />
-    <None Include="EmptyJSFile.js" />
+    <None Include="mainHtml.html" />
+    <None Include="mainCSS.css" />
+    <None Include="mainJS.js" />
   </ItemGroup>
 </Project>
