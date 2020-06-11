@@ -1,11 +1,21 @@
-﻿
+﻿body {
+    background: url(https://images.unsplash.com/photo-1591199611141-cf661190c589?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+    background-size: cover;
+}
+
+
 h1 {
-    font-size: 32px;
+    font-size: 2rem;
     font-family: Palatino, 'Palatino Linotype', serif;
     color: rgb(121,149,117);
 }
 
-.nav {
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+p {
+    font-size: 1rem;
+    color: #ffffff;
 }
 
+.nav {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    color: palevioletred;
+}
