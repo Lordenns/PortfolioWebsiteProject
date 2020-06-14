@@ -3,6 +3,14 @@
     background-size: cover;
 }
 
+.nav {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    color: palevioletred;
+}
+
+    .nav li {
+        display: inline;
+    }
 
 h1 {
     font-size: 2rem;
@@ -13,13 +21,4 @@ h1 {
 p {
     font-size: 1rem;
     color: #ffffff;
-}
-
-.nav {
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    color: palevioletred;
-}
-
-.nav li {
-    display: inline;
 }
