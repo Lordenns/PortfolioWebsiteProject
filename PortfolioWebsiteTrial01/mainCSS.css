@@ -1,7 +1,11 @@
 ﻿body {
-    background-color: white;
     font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background-image: url(https://source.unsplash.com/pCU3zt9OEn0);
+    background-position: center top;
+    background-size: cover;
+    margin: 0;
 }
+
 
 #page-title {
     font-size: 2rem;
@@ -12,18 +16,27 @@
 
 #copyright {
     text-align: center;
+    color: whitesmoke;
 }
+
 
 /*nav bar*/
 .nav {
     font-size: 1.2rem;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    color: palevioletred;
+    color: whitesmoke;
+    margin: 4px;
 }
 
 .nav li {
     display: inline;
+    border: 1px solid white;
 }
+
+.nav ul {
+    display: inline;
+}
+/*End Nav bar*/
 
 .main {
     font-size: 1rem;
@@ -31,9 +44,11 @@
 }
 
 .page-description {
-    border: 2px solid #000;
+    border: 8px solid white;
     padding: 20px;
     text-align: center;
+    margin: 8px;
+    color: white;
 }
 
 /*Start of Gallery, class selector for parent div, moving entire gallery down 20 px from above element*/
@@ -44,9 +59,9 @@
     flex-wrap: wrap;
 }
 
-/*gallery item class selector for figure tags*/
+/*gallery item class selector for figure tag - the frames*/
 .gallery-item {
-    border: 5px solid #000;
+    border: 5px solid #FFF;
     margin: 20px;
 }
 
@@ -56,15 +71,17 @@
    width: 18rem;
    object-fit: cover;
 }
+/*End Gallery*/
 
 .contact-btn {
-    float: right
+    float: right;
+    color: whitesmoke;
 }
 
 .contact-btn a {
     margin-right: 30px;
     padding: 8px 18px;
-    border: 1px solid #000;
+    border: 1px solid #FFF;
 }    
 
 /*Active + bottom: 2px adds a button like reaction on click without needing JS*/
