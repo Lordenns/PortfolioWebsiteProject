@@ -5,23 +5,34 @@
     <title>David Seth Designs</title>
     <link rel="stylesheet" type="text/css" href="mainCSS.css" >
 </head>
-    <div class="nav">
-        <ul>
-            <li>Home</li>
-            <li>Gallery</li>
-            <li>Code</li>
-        </ul>
-    </div>
+<body>
     <div class="main">
-        <h1>Art Portfolio Website</h1>
-        <body>
-            <p>Hey there! This site is merely a seedling that's still growing. ETA 2020.</p>
-            <p>Questions? Contact: davidsethdesigns@gmail.com </p>
+        <h1 id="page-title">Art Portfolio Website</h1>
+        <div class="nav">
+            <ul>
+                <li>Home</li>
+                <li>Gallery</li>
+                <li>Coding Projects</li>
+                <li><a>Contact</a></li>
+            </ul>
+        </div>
+        
+        <p class="page-description">Hey there! This site is merely a seedling that's still growing. ETA 2020. Feel free to take a look around at the gallery as it develops! Gallery is currently random photos from a stock site called Unsplash (Link <a target="_blank" href="https://unsplash.com/featured/?no_justice_no_peace,blm">HERE</a>).</p>
 
-            <! Maybe insert the ribbon on my underconstruction page? Perhaps add an email? create a gallery class and
-            use .gallery .gallery item to adjust margin, padding, display, etc>
+        <!-- Maybe insert the ribbon on my underconstruction page? Perhaps add an email?
+        1. create a .gallery class and
+        use figure tag for .gallery-item class and img tag for .thumbnail class
+        2. use classes to adjust margin, padding, display, etc -->
 
-            <p>&copy; David Seth Designs</p>
-        </body>
+        <div class="gallery">
+            <figure class="gallery-item">
+                <img class="thumbnail" src="https://source.unsplash.com/random" />
+            </figure>
+        </div>
+        <div class="contact-btn">
+            <a>Contact</a>
+        </div>
+        <p id="copyright">&copy; David Seth Designs</p>
     </div>
+</body>
 </html>

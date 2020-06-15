@@ -1,24 +1,68 @@
 ﻿body {
-    background: url(https://images.unsplash.com/photo-1591199611141-cf661190c589?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
-    background-size: cover;
+    background-color: white;
+}
+
+#page-title {
+    font-size: 2rem;
+    font-family: Palatino, 'Palatino Linotype', serif;
+    color: rgb(121, 149, 117);
+    text-align: center;
+}
+
+#copyright {
+    text-align: center;
 }
 
 .nav {
+    font-size: 1.2rem;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     color: palevioletred;
 }
 
-    .nav li {
-        display: inline;
-    }
-
-h1 {
-    font-size: 2rem;
-    font-family: Palatino, 'Palatino Linotype', serif;
-    color: rgb(121,149,117);
+.nav li {
+    display: inline;
 }
 
-p {
+.main {
     font-size: 1rem;
-    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    color: 000;
+}
+
+.page-description {
+    border: 2px solid #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    margin-top: 20px;
+   
+}
+
+.gallery-item {
+
+    border: 5px solid #000;
+    margin: 20px;
+
+}
+
+.thumbnail {
+
+}
+
+.contact-btn {
+    float: right
+}
+
+.contact-btn a {
+    margin-right: 30px;
+    padding: 8px 18px;
+    border: 1px solid #000;
+}    
+
+/*Adds a button like reaction on click without needing JS*/
+.contact-btn a:active {
+    position: relative;
+    bottom: 2px;
 }
