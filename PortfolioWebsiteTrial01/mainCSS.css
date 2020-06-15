@@ -1,5 +1,6 @@
 ﻿body {
     background-color: white;
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
 }
 
 #page-title {
@@ -13,6 +14,7 @@
     text-align: center;
 }
 
+/*nav bar*/
 .nav {
     font-size: 1.2rem;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
@@ -25,7 +27,6 @@
 
 .main {
     font-size: 1rem;
-    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
     color: 000;
 }
 
@@ -35,18 +36,21 @@
     text-align: center;
 }
 
+/*Start of Gallery, class selector for parent div, moving entire gallery down 20 px from above element*/
+/*flex-wrap: wrap brings all the images inside the border of every gallery-item*/
 .gallery {
     margin-top: 20px;
-   
+    display: flex;
+    flex-wrap: wrap;
 }
 
+/*gallery item class selector for figure tags*/
 .gallery-item {
-
     border: 5px solid #000;
     margin: 20px;
-
 }
 
+/*class selector for img tag inside figure*/
 .thumbnail {
 
 }
@@ -61,7 +65,7 @@
     border: 1px solid #000;
 }    
 
-/*Adds a button like reaction on click without needing JS*/
+/*Active + bottom: 2px adds a button like reaction on click without needing JS*/
 .contact-btn a:active {
     position: relative;
     bottom: 2px;
