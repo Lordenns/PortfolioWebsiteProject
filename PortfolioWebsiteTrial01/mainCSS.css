@@ -52,7 +52,9 @@
 
 /*class selector for img tag inside figure*/
 .thumbnail {
-
+   height: 18rem;
+   width: 18rem;
+   object-fit: cover;
 }
 
 .contact-btn {
