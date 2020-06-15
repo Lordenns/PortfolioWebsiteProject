@@ -44,11 +44,11 @@
 }
 
 .page-description {
-    border: 8px solid white;
+    border: 5px solid white;
     padding: 20px;
     text-align: center;
     margin: 8px;
-    color: white;
+    color: whitesmoke;
 }
 
 /*Start of Gallery, class selector for parent div, moving entire gallery down 20 px from above element*/
