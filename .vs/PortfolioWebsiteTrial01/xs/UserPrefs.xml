@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{01524264-62E4-4964-AAE8-75DD7FDABBB9}|Default">
   <MonoDevelop.Ide.ItemProperties.PortfolioWebsiteTrial01 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PortfolioWebsiteTrial01/mainHtml.html">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PortfolioWebsiteTrial01/mainCSS.css">
     <Files>
-      <File FileName="PortfolioWebsiteTrial01/mainHtml.html" Line="50" Column="95" />
-      <File FileName="PortfolioWebsiteTrial01/mainCSS.css" />
+      <File FileName="PortfolioWebsiteTrial01/mainHtml.html" Line="14" Column="39" />
+      <File FileName="PortfolioWebsiteTrial01/mainCSS.css" Line="63" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PortfolioWebsiteTrial01" expanded="True">
             <Node name="PortfolioWebsiteTrial01" expanded="True">
-              <Node name="mainHtml.html" selected="True" />
+              <Node name="mainCSS.css" selected="True" />
             </Node>
           </Node>
         </State>
