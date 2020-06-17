@@ -42,6 +42,7 @@ header p {
 }
 
 /*Won't center based on flex so used "position and transform"*/
+
 .jumbotron h2 {
     font-size: 3.75rem;
     font-weight: 700;
