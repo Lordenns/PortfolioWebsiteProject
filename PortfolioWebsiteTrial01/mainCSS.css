@@ -1,0 +1,159 @@
+﻿
+body {
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 0;
+    margin: 1.25rem 0;
+}
+
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.25rem;
+    color: rgb(121, 149, 117);
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(105, 131, 101);
+}
+
+header p {
+    padding: 0;
+    margin:0 1.25rem;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url(https://source.unsplash.com/pCU3zt9OEn0);
+    background-size: cover;
+    color: whitesmoke;
+    height: 31.25rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem #000000;
+}
+
+.jumbotron h2 {
+    font-size: 3.75rem;
+    font-weight: 700;
+    margin: 0;
+    color: whitesmoke;
+    text-shadow: 0.2rem 0.2rem 0.2rem #000;
+    /* this worked as a fix before I switched the html h2 tag to col-sm-12 so that text-center would work
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+/*
+body {
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background-image: url(https://source.unsplash.com/pCU3zt9OEn0);
+    background-position: center top;
+    background-size: cover;
+    margin: 0;
+}
+
+
+#page-title {
+    font-size: 2rem;
+    font-family: Palatino, 'Palatino Linotype', serif;
+    color: rgb(121, 149, 117);
+    text-align: center;
+}
+
+#copyright {
+    text-align: center;
+    color: whitesmoke;
+}
+*/
+
+
+
+/*nav bar
+.nav {
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    color: whitesmoke;
+    margin: 4px;
+}
+
+.nav li {
+    display: inline;
+    border: 1px solid white;
+}
+
+.nav ul {
+    display: inline;
+}
+*/
+
+/*End Nav bar
+
+.page-description {
+    border: 5px solid white;
+    padding: 20px;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+*/
+
+/*Start of Gallery, class selector for parent div, moving entire gallery down 20 px from above element*/
+/*flex-wrap: wrap brings all the images inside the border of every gallery-item
+.gallery {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+*/
+
+/*gallery item class selector for figure tag - the frames
+.gallery-item {
+    border: 5px solid #FFF;
+    margin: 20px;
+}
+*/
+
+/*class selector for img tag inside figure
+.thumbnail {
+   height: 18rem;
+   width: 18rem;
+   object-fit: cover;
+}
+End Gallery*/
+
+/*|
+.contact-btn {
+    float: right;
+    color: whitesmoke;
+}
+
+.contact-btn a {
+    margin-right: 30px;
+    padding: 8px 18px;
+    border: 1px solid #FFF;
+}
+*/
+
+/*Active + bottom: 2px adds a button like reaction on click without needing JS
+.contact-btn a:active {
+    position: relative;
+    bottom: 2px;
+}
+
+*/
