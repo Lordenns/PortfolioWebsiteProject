@@ -1,42 +1,41 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <!--Required meta tags-->
-    <meta charset="utf-8" />
-
-    <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!--Link CSS style sheet-->
-    <link rel="stylesheet" type="text/css" href="mainCSS.css">
     <!--Webpage title-->
     <title>David Seth Designs</title>
+    <!--Required meta tags-->
+    <meta charset="utf-8" />
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Link CSS style sheet-->
+    <link rel="stylesheet" type="text/css" href="mainCSS.css">
 </head>
-
 <body>
-    <div class="main">
-        <header>
-            <h1 id="page-title">Portfolio Website</h1>
+    <header class="container">
+            <div class="row">
+            <h1 class="col-sm-4">Portfolio Website</h1>
             <!--Navigation bar - pull down menu? separate inline buttons? radial interactive button?(like make it look like a paint pallet but have the dip notches for color be button links to contact, portfolio etc-->
-            <div class="nav">
-                <ul>
-                    <li>Home</li>
-                    <li>Art Portfolio</li>
-                    <li>Code Projects</li>
-                    <li>Sources of Inspiration</li>
-                    <li><a>Contact</a></li>
-                </ul>
+            <nav class="col-sm-8 text-right">  
+                <p>Art Portfolio</p>
+                <p>Code Projects</p>
+                <p><a>Contact</a></p>
+            </nav>
             </div>
-        </header>
-        <p class="page-description">Hey there! This site is merely a sapling website that's still growing. ETA late 2020. Feel free to take a look around at the gallery as it develops - this is one of my summer personal projects. The gallery is currently a mix of civil rights, lgbtqia+, and vegan food photos from a stock site called Unsplash (Link <a target="_blank" href="https://unsplash.com/">HERE</a>). <br /> Try refreshing the page to see other photos!</p>
-
+    </header>
+    <section class="jumbotron">
+        <!--background img should go here in a constrained box via bootstrap css-->
+        <div class="container">
+            <div class="row text-center">
+                <h2>Welcome</h2>
+                <p> Hey there! This site is merely a sapling website that's still growing. ETA late 2020. Feel free to take a look around at the gallery as it develops - this is one of my summer personal projects. The gallery is currently a mix of civil rights, lgbtqia+, and vegan food photos from a stock site called Unsplash (Link <a target="_blank" href="https://unsplash.com/">HERE</a>). <br /> Try refreshing the page to see other photos!</p>
+            </div>
+        </div>
+    </section>
         <!-- Maybe insert the ribbon on my underconstruction page? Perhaps add an email?
         1. create a .gallery class and
         use figure tag for .gallery-item class and img tag for .thumbnail class
         2. use classes to adjust margin, padding, display, etc -->
-
         <div class="gallery">
-
             <figure class="gallery-item">
                 <img class="thumbnail" src="https://source.unsplash.com/featured/?blm,black_lives_matter" />
             </figure>
@@ -50,7 +49,7 @@
             </figure>
 
             <figure class="gallery-item">
-                <img class="thumbnail" src="https://source.unsplash.com/featured/?lgbtqia, lgbtqia+" />
+                <img class="thumbnail" src="https://source.unsplash.com/featured/?lgbtqia" />
             </figure>
 
             <figure class="gallery-item">
@@ -69,10 +68,11 @@
                 <img class="thumbnail" src="https://source.unsplash.com/featured/?afro"
             </figure>
         </div>
-            <div class="contact-btn">
-                <a>Contact</a>
-            </div>
+    <footer>
+        <div class="contact-btn">
+            <a>Contact</a>
+        </div>
         <p id="copyright">&copy; David Seth Designs</p>
-    </div>
+    </footer>
 </body>
 </html>
