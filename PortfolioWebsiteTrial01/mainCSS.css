@@ -24,6 +24,7 @@ header h1 {
 header nav {
     display: flex;
     justify-content: flex-end;
+    color: rgb(105, 131, 101);
 }
 
 header p {
@@ -38,10 +39,8 @@ header p {
     background-size: cover;
     color: whitesmoke;
     height: 31.25rem;
-    text-shadow: 0.05rem 0.05rem 0.05rem #000000;
+    text-shadow: 0.1rem 0.1rem 0.1rem #000000;
 }
-
-/*Won't center based on flex so used "position and transform"*/
 
 .jumbotron h2 {
     font-size: 3.75rem;
@@ -49,10 +48,11 @@ header p {
     margin: 0;
     color: whitesmoke;
     text-shadow: 0.2rem 0.2rem 0.2rem #000;
+    /* this worked as a fix before I switched the html h2 tag to col-sm-12 so that text-center would work
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
 /*
