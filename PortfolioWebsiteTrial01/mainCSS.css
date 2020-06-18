@@ -34,18 +34,18 @@ header p {
 
 .jumbotron {
     display: flex;
-    align-items: center;
     background-image: url(https://source.unsplash.com/pCU3zt9OEn0);
     background-size: cover;
     color: whitesmoke;
-    height: 31.25rem;
+    height: 25.25rem;
     text-shadow: 0.1rem 0.1rem 0.1rem #000000;
 }
 
 .jumbotron h2 {
     font-size: 3.75rem;
     font-weight: 700;
-    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
     color: whitesmoke;
     text-shadow: 0.2rem 0.2rem 0.2rem #000;
     /* this worked as a fix before I switched the html h2 tag to col-sm-12 so that text-center would work
@@ -54,6 +54,34 @@ header p {
     left: 50%;
     transform: translate(-50%, -50%); */
 }
+
+.jumbotron p {
+}
+
+/*Start of Gallery, class selector for parent div, moving entire gallery down 20 px from above element*/
+
+/*flex-wrap: wrap brings all the images inside the border of every gallery-item*/
+.gallery {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+/*gallery item class selector for figure tag - the frames*/
+.gallery-item {
+    border: 5px solid #000;
+    margin: 20px;
+}
+
+/*class selector for img tag inside figure*/
+.thumbnail {
+   height: 18rem;
+   width: 18rem;
+   object-fit: cover;
+}
+/*End Gallery*/
+
 
 /*
 body {
