@@ -38,11 +38,22 @@ header li {
     margin: 0 1.25rem;
 }
 
+nav a {
+    color: rgb(105, 131, 101);
+}
+
+nav a:hover{
+    color: rosybrown;
+    text-decoration: none;
+
+}
+
 .jumbotron {
     display: flex;
     background-image: url(https://source.unsplash.com/pCU3zt9OEn0);
     background-size: cover;
     height: 25.25rem;
+    margin-bottom: 2rem;
 }
 
 .jumbotron h2 {
@@ -73,7 +84,7 @@ header li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 1.25rem;
+    margin-bottom: 2rem;
 }
 
 /*gallery item class selector for figure tag - the frames*/
@@ -91,14 +102,18 @@ header li {
 
 /*End Gallery*/
 
-footer .col-sm-4 {
+footer {
     color: rgb(105, 131, 101);
 }
 
+
+
 footer .col-sm-8 {
     text-align: right;
-    color: rgb(105, 131, 101);
+
 }
+
+
 
 
 /*
