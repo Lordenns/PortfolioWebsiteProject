@@ -53,26 +53,20 @@ nav a:hover {
     background-size: cover;
     height: 25.25rem;
     margin-top: 2rem;
+    color: whitesmoke;
+    text-shadow: 0.1rem 0.1rem 0.1rem #000000;
 }
 
 #welcome-message h2 {
     font-size: 3.75rem;
     font-weight: 700;
-    margin-top: 1rem;
     margin-bottom: 2.5rem;
-    top: 1rem;
-    color: whitesmoke;
     text-shadow: 0.2rem 0.2rem 0.2rem #000;
     /* "Position+Transform" worked as a fix before I switched the html h2 tag to col-sm-12 so that text-center would work
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); */
-}
-
-#welcome-message p {
-    color: whitesmoke;
-    text-shadow: 0.1rem 0.1rem 0.1rem #000000;
 }
 
 #welcome-message a {
@@ -89,7 +83,6 @@ nav a:hover {
     color: #436a3d;
     margin-top: 2rem;
 }
-/*Start of Gallery*/
 
 /*flex-wrap: wrap brings all the images inside the border of every gallery-item*/
 .gallery {
@@ -117,7 +110,18 @@ nav a:hover {
 
 
 #contact {
-    background-color: #698365;
+    background-image: url(https://source.unsplash.com/fUnfEz3VLv4);
+    background-size: cover;
+    color: whitesmoke;
+    text-shadow: 0.1rem 0.1rem 0.1rem #000000;
+    font-size: 1.5rem;
+}
+
+#contact h2 {
+    font-size: 3rem;
+    font-weight: 200;
+    color: whitesmoke;
+    text-shadow: 0.2rem 0.2rem 0.2rem #000;
 }
 
 footer {
