@@ -18,14 +18,14 @@ footer .row {
 header h1 {
     font-size: 2.25rem;
     font-weight: 400;
-    color: rgb(121, 149, 117);
+    color: #436a3d;
     margin: 0;
 }
 
 header nav {
     display: flex;
     justify-content: flex-end;
-    color: rgb(105, 131, 101);
+    color: #698365;
 }
 
 header p {
@@ -39,24 +39,23 @@ header li {
 }
 
 nav a {
-    color: rgb(105, 131, 101);
+    color: #698365;
 }
 
-nav a:hover{
-    color: rosybrown;
+nav a:hover {
+    color: #836569;
     text-decoration: none;
-
 }
 
-.jumbotron {
+#welcome-message {
     display: flex;
     background-image: url(https://source.unsplash.com/pCU3zt9OEn0);
     background-size: cover;
     height: 25.25rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
-.jumbotron h2 {
+#welcome-message h2 {
     font-size: 3.75rem;
     font-weight: 700;
     margin-top: 1rem;
@@ -71,12 +70,26 @@ nav a:hover{
     transform: translate(-50%, -50%); */
 }
 
-.jumbotron p {
+#welcome-message p {
     color: whitesmoke;
     text-shadow: 0.1rem 0.1rem 0.1rem #000000;
 }
 
-/*Start of Gallery, parent div class selector, moving entire gallery down 20 px from above element*/
+#welcome-message a {
+    color: whitesmoke;
+    text-shadow: 0.1rem 0.1rem 0.1rem #000000;
+    text-decoration: none;
+}
+
+#welcome-message a:hover {
+    color: #836569;
+}
+
+#gallery-id {
+    color: #436a3d;
+    margin-top: 2rem;
+}
+/*Start of Gallery*/
 
 /*flex-wrap: wrap brings all the images inside the border of every gallery-item*/
 .gallery {
@@ -102,11 +115,15 @@ nav a:hover{
 
 /*End Gallery*/
 
-footer {
-    color: rgb(105, 131, 101);
+
+#contact {
+    background-color: #698365;
 }
 
-
+footer {
+    color: #698365;
+    margin-top: 1rem;
+}
 
 footer .col-sm-8 {
     text-align: right;
@@ -116,89 +133,8 @@ footer .col-sm-8 {
 
 
 
-/*
-body {
-    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
-    background-image: url(https://source.unsplash.com/pCU3zt9OEn0);
-    background-position: center top;
-    background-size: cover;
-    margin: 0;
-}
 
-
-#page-title {
-    font-size: 2rem;
-    font-family: Palatino, 'Palatino Linotype', serif;
-    color: rgb(121, 149, 117);
-    text-align: center;
-}
-
-#copyright {
-    text-align: center;
-    color: whitesmoke;
-}
-*/
-
-
-
-/*nav bar
-.nav {
-    font-size: 1.2rem;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    color: whitesmoke;
-    margin: 4px;
-}
-
-.nav li {
-    display: inline;
-    border: 1px solid white;
-}
-
-.nav ul {
-    display: inline;
-}
-*/
-
-/*End Nav bar
-
-.page-description {
-    border: 5px solid white;
-    padding: 20px;
-    text-align: center;
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-top: 20px;
-    color: whitesmoke;
-}
-*/
-
-/*Start of Gallery, class selector for parent div, moving entire gallery down 20 px from above element*/
-/*flex-wrap: wrap brings all the images inside the border of every gallery-item
-.gallery {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-*/
-
-/*gallery item class selector for figure tag - the frames
-.gallery-item {
-    border: 5px solid #FFF;
-    margin: 20px;
-}
-*/
-
-/*class selector for img tag inside figure
-.thumbnail {
-   height: 18rem;
-   width: 18rem;
-   object-fit: cover;
-}
-End Gallery*/
-
-/*|
+/* Button from scratch
 .contact-btn {
     float: right;
     color: whitesmoke;
