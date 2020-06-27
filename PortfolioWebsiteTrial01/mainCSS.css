@@ -7,16 +7,15 @@ body {
 header {
     padding: 0;
     margin: 1.25rem 0;
+    font-size: 2rem;
 }
 
 header .row,
 footer .row {
-    display: flex;
     align-items: center;
 }
 
 header h1 {
-    font-size: 2.25rem;
     font-weight: 400;
     color: #436a3d;
     margin: 0;
@@ -28,16 +27,6 @@ header nav {
     color: #698365;
 }
 
-header p {
-    padding: 0;
-    margin:0 1.25rem;
-}
-
-header li {
-    padding: 0;
-    margin: 0 1.25rem;
-}
-
 nav a {
     color: #698365;
 }
@@ -45,6 +34,11 @@ nav a {
 nav a:hover {
     color: #836569;
     text-decoration: none;
+}
+
+header p {
+    padding: 0;
+    margin:0 1rem;
 }
 
 #welcome-message {
@@ -55,10 +49,11 @@ nav a:hover {
     margin-top: 2rem;
     color: whitesmoke;
     text-shadow: 0.1rem 0.1rem 0.1rem #000000;
+    text-align: center;
 }
 
 #welcome-message h2 {
-    font-size: 3.75rem;
+    font-size: 4rem;
     font-weight: 700;
     margin-bottom: 2.5rem;
     text-shadow: 0.2rem 0.2rem 0.2rem #000;
@@ -69,10 +64,14 @@ nav a:hover {
     transform: translate(-50%, -50%); */
 }
 
+#welcome-message p {
+    font-size: 1rem;
+}
+
 #welcome-message a {
     color: whitesmoke;
     text-shadow: 0.1rem 0.1rem 0.1rem #000000;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #welcome-message a:hover {
@@ -82,6 +81,11 @@ nav a:hover {
 #gallery-id {
     color: #436a3d;
     margin-top: 2rem;
+}
+
+#gallery-id h2 {
+    text-align: center;
+    font-size: 4rem;
 }
 
 /*flex-wrap: wrap brings all the images inside the border of every gallery-item*/
@@ -110,29 +114,26 @@ nav a:hover {
 
 
 #contact {
-    background-image: url(https://source.unsplash.com/fUnfEz3VLv4);
+    background-image: url(https://source.unsplash.com/3jKqzhpiGuk);
     background-size: cover;
     color: whitesmoke;
     text-shadow: 0.1rem 0.1rem 0.1rem #000000;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
 }
 
 #contact h2 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 200;
-    color: whitesmoke;
     text-shadow: 0.2rem 0.2rem 0.2rem #000;
 }
 
 footer {
     color: #698365;
     margin-top: 1rem;
+    text-align: center;
 }
 
-footer .col-sm-8 {
-    text-align: right;
-
-}
 
 
 
