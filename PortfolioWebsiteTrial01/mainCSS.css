@@ -10,6 +10,7 @@ header {
     font-size: 2rem;
 }
 
+/*Flex made this possible - learn more later*/
 header .row,
 footer .row {
     display: flex;
